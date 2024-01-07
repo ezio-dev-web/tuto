@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mi primera publicacion de Blog'
 pubDate: 04-01-2024
 description: 'Es es mi primera publicacion, en mi nuevo Blog Astro'
@@ -6,11 +7,8 @@ author: 'Cris Manu'
 image:
   url: 'https://img.freepik.com/psd-gratis/plantilla-publicacion-instagram-redes-sociales_47618-73.jpg?size=338&ext=jpg&ga=GA1.1.1687694167.1704326400&semt=sph'
   alt: 'El logo completo'
-tags: ['astro', 'blog', 'tech', 'learning']
+tags: ['astro']
 ---
-# Mi primer Post
-
-Publicacion: 04-01-2024
 
 ¡Bienvenidos a mi _nuevo blog_ sobre cómo aprender Astro! Aquí, compartiré mi viaje de aprendizaje mientras construyo un nuevo sitio web.
 
@@ -25,3 +23,9 @@ Publicacion: 04-01-2024
 ## Que sigue?
 
 Terminaré el tutorial de Astro y luego seguiré agregando más publicaciones. Mire este espacio para saber más de lo que esta por venir.
+
+<style>
+  h2{
+    color: black;
+  }
+</style>
